@@ -2,8 +2,8 @@
 
 namespace App;
 
-use App\Exception\InvalidAmountException;
-use App\Exception\InsufficientFundsException;
+use App\Exceptions\InvalidAmountException;
+use App\Exceptions\InsufficientFundsException;
 
 class BankAccount
 {
