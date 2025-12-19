@@ -3,8 +3,8 @@
 require_once 'vendor/autoload.php';
 
 use App\BankAccount;
-use App\Exception\InvalidAmountException;
-use App\Exception\InsufficientFundsException;
+use App\Exceptions\InvalidAmountException;
+use App\Exceptions\InsufficientFundsException;
 
 try {
     $account = new BankAccount(1000.0);
