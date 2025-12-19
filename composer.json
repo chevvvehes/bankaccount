@@ -1,0 +1,19 @@
+{
+    "name": "user/8",
+    "description": "work9withbankaccount",
+    "require": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chevvvehes"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
